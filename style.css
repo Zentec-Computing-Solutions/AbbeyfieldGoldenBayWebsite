@@ -1,0 +1,168 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        135deg,
+        #2c3e50 0%,
+        #1a001a 100%
+    ); /* Dark gradient: deep blue to dark purple */
+    color: #e0e0e0; /* Light grey text for readability */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+header {
+    background: rgba(
+        0,
+        0,
+        0,
+        0.2
+    ); /* Semi-transparent dark background for header */
+    padding: 30px 0;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #e6e6fa; /* Lavender for title */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #bb86fc; /* Light purple for links */
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #bb86fc; /* Light purple background on hover */
+    color: #121212; /* Dark text on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.05); /* Very subtle light overlay */
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+    font-size: 2.2em;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1em;
+    color: #c0c0c0;
+}
+
+.content-section {
+    background: rgba(
+        255,
+        255,
+        255,
+        0.08
+    ); /* Slightly more opaque for content */
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.content-section h3 {
+    font-size: 1.8em;
+    color: #d8baff; /* Lighter purple for section titles */
+    margin-top: 0;
+    border-bottom: 2px solid #bb86fc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background: linear-gradient(
+        135deg,
+        #8e44ad 0%,
+        #3498db 100%
+    ); /* Purple to blue gradient for buttons */
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px; /* Very rounded button */
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background: rgba(
+        0,
+        0,
+        0,
+        0.3
+    ); /* Semi-transparent dark background for footer */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: auto; /* Pushes footer to the bottom */
+    font-size: 0.9em;
+    color: #a0a0a0; /* Dimmer text for footer */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.google-verification {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 0.8em;
+    color: #909090;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
